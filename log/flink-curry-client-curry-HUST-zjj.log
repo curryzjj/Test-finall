@@ -1,0 +1,35 @@
+2021-06-21 17:16:11,169 INFO  org.apache.flink.client.cli.CliFrontend                      [] - --------------------------------------------------------------------------------
+2021-06-21 17:16:11,170 INFO  org.apache.flink.client.cli.CliFrontend                      [] -  Starting Command Line Client (Version: 1.14-SNAPSHOT, Scala: 2.11, Rev:a3b4a08, Date:2021-05-19T03:58:03+02:00)
+2021-06-21 17:16:11,170 INFO  org.apache.flink.client.cli.CliFrontend                      [] -  OS current user: curry
+2021-06-21 17:16:11,170 INFO  org.apache.flink.client.cli.CliFrontend                      [] -  Current Hadoop/Kerberos user: <no hadoop dependency found>
+2021-06-21 17:16:11,170 INFO  org.apache.flink.client.cli.CliFrontend                      [] -  JVM: OpenJDK 64-Bit Server VM - Private Build - 1.8/25.292-b10
+2021-06-21 17:16:11,170 INFO  org.apache.flink.client.cli.CliFrontend                      [] -  Maximum heap size: 1740 MiBytes
+2021-06-21 17:16:11,170 INFO  org.apache.flink.client.cli.CliFrontend                      [] -  JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
+2021-06-21 17:16:11,170 INFO  org.apache.flink.client.cli.CliFrontend                      [] -  No Hadoop Dependency available
+2021-06-21 17:16:11,171 INFO  org.apache.flink.client.cli.CliFrontend                      [] -  JVM Options:
+2021-06-21 17:16:11,171 INFO  org.apache.flink.client.cli.CliFrontend                      [] -     -Dlog.file=/home/curry/flink/flink-dist/target/flink-1.14-SNAPSHOT-bin/flink-1.14-SNAPSHOT/log/flink-curry-client-curry-HUST-zjj.log
+2021-06-21 17:16:11,171 INFO  org.apache.flink.client.cli.CliFrontend                      [] -     -Dlog4j.configuration=file:/home/curry/flink/flink-dist/target/flink-1.14-SNAPSHOT-bin/flink-1.14-SNAPSHOT/conf/log4j-cli.properties
+2021-06-21 17:16:11,171 INFO  org.apache.flink.client.cli.CliFrontend                      [] -     -Dlog4j.configurationFile=file:/home/curry/flink/flink-dist/target/flink-1.14-SNAPSHOT-bin/flink-1.14-SNAPSHOT/conf/log4j-cli.properties
+2021-06-21 17:16:11,171 INFO  org.apache.flink.client.cli.CliFrontend                      [] -     -Dlogback.configurationFile=file:/home/curry/flink/flink-dist/target/flink-1.14-SNAPSHOT-bin/flink-1.14-SNAPSHOT/conf/logback.xml
+2021-06-21 17:16:11,171 INFO  org.apache.flink.client.cli.CliFrontend                      [] -  Program Arguments:
+2021-06-21 17:16:11,172 INFO  org.apache.flink.client.cli.CliFrontend                      [] -     run
+2021-06-21 17:16:11,172 INFO  org.apache.flink.client.cli.CliFrontend                      [] -     ../examples/streaming/WordCount.jar
+2021-06-21 17:16:11,172 INFO  org.apache.flink.client.cli.CliFrontend                      [] -  Classpath: /home/curry/flink/flink-dist/target/flink-1.14-SNAPSHOT-bin/flink-1.14-SNAPSHOT/lib/flink-csv-1.14-SNAPSHOT.jar:/home/curry/flink/flink-dist/target/flink-1.14-SNAPSHOT-bin/flink-1.14-SNAPSHOT/lib/flink-json-1.14-SNAPSHOT.jar:/home/curry/flink/flink-dist/target/flink-1.14-SNAPSHOT-bin/flink-1.14-SNAPSHOT/lib/flink-shaded-zookeeper-3.4.14.jar:/home/curry/flink/flink-dist/target/flink-1.14-SNAPSHOT-bin/flink-1.14-SNAPSHOT/lib/flink-table_2.11-1.14-SNAPSHOT.jar:/home/curry/flink/flink-dist/target/flink-1.14-SNAPSHOT-bin/flink-1.14-SNAPSHOT/lib/flink-table-blink_2.11-1.14-SNAPSHOT.jar:/home/curry/flink/flink-dist/target/flink-1.14-SNAPSHOT-bin/flink-1.14-SNAPSHOT/lib/log4j-1.2-api-2.14.1.jar:/home/curry/flink/flink-dist/target/flink-1.14-SNAPSHOT-bin/flink-1.14-SNAPSHOT/lib/log4j-api-2.14.1.jar:/home/curry/flink/flink-dist/target/flink-1.14-SNAPSHOT-bin/flink-1.14-SNAPSHOT/lib/log4j-core-2.14.1.jar:/home/curry/flink/flink-dist/target/flink-1.14-SNAPSHOT-bin/flink-1.14-SNAPSHOT/lib/log4j-slf4j-impl-2.14.1.jar:/home/curry/flink/flink-dist/target/flink-1.14-SNAPSHOT-bin/flink-1.14-SNAPSHOT/lib/flink-dist_2.11-1.14-SNAPSHOT.jar:::
+2021-06-21 17:16:11,172 INFO  org.apache.flink.client.cli.CliFrontend                      [] - --------------------------------------------------------------------------------
+2021-06-21 17:16:11,174 INFO  org.apache.flink.configuration.GlobalConfiguration           [] - Loading configuration property: jobmanager.rpc.address, localhost
+2021-06-21 17:16:11,174 INFO  org.apache.flink.configuration.GlobalConfiguration           [] - Loading configuration property: jobmanager.rpc.port, 6123
+2021-06-21 17:16:11,174 INFO  org.apache.flink.configuration.GlobalConfiguration           [] - Loading configuration property: jobmanager.memory.process.size, 1600m
+2021-06-21 17:16:11,174 INFO  org.apache.flink.configuration.GlobalConfiguration           [] - Loading configuration property: taskmanager.memory.process.size, 1728m
+2021-06-21 17:16:11,174 INFO  org.apache.flink.configuration.GlobalConfiguration           [] - Loading configuration property: taskmanager.numberOfTaskSlots, 1
+2021-06-21 17:16:11,174 INFO  org.apache.flink.configuration.GlobalConfiguration           [] - Loading configuration property: parallelism.default, 1
+2021-06-21 17:16:11,175 INFO  org.apache.flink.configuration.GlobalConfiguration           [] - Loading configuration property: jobmanager.execution.failover-strategy, region
+2021-06-21 17:16:11,192 INFO  org.apache.flink.client.cli.CliFrontend                      [] - Loading FallbackYarnSessionCli
+2021-06-21 17:16:11,215 INFO  org.apache.flink.core.fs.FileSystem                          [] - Hadoop is not in the classpath/dependencies. The extended set of supported File Systems via Hadoop is not available.
+2021-06-21 17:16:11,241 INFO  org.apache.flink.runtime.security.modules.HadoopModuleFactory [] - Cannot create Hadoop Security Module because Hadoop cannot be found in the Classpath.
+2021-06-21 17:16:11,247 INFO  org.apache.flink.runtime.security.modules.JaasModule         [] - Jaas file will be created as /tmp/jaas-593475874079083946.conf.
+2021-06-21 17:16:11,250 INFO  org.apache.flink.runtime.security.contexts.HadoopSecurityContextFactory [] - Cannot install HadoopSecurityContext because Hadoop cannot be found in the Classpath.
+2021-06-21 17:16:11,251 INFO  org.apache.flink.client.cli.CliFrontend                      [] - Running 'run' command.
+2021-06-21 17:16:11,264 INFO  org.apache.flink.client.cli.CliFrontend                      [] - Building program from JAR file
+2021-06-21 17:16:11,272 INFO  org.apache.flink.client.ClientUtils                          [] - Starting program (detached: false)
+2021-06-21 17:16:11,540 INFO  org.apache.flink.configuration.Configuration                 [] - Config uses fallback configuration key 'jobmanager.rpc.address' instead of key 'rest.address'
+2021-06-21 17:16:12,012 INFO  org.apache.flink.configuration.Configuration                 [] - Config uses fallback configuration key 'jobmanager.rpc.address' instead of key 'rest.address'
